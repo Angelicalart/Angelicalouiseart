@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Angelica Louise Art</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #fdf6f0;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #dcdde1;
+      padding: 2rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    nav {
+      background: #b9cbb2;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      margin: 1rem;
+      border-radius: 12px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #dcdde1;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Angelica Louise Art</h1>
+    <p>Whimsical portraits & nature scenes with heart</p>
+  </header>
+  
+  <nav>
+    <a href="#commissions">Commissions</a>
+    <a href="#originals">Originals</a>
+    <a href="#contact">Contact</a>
+  </nav>
